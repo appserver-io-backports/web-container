@@ -15,11 +15,13 @@
     "require": {
         "php": ">=5.4.0",
         "techdivision/appserver": "0.6.*",
-        "techdivision/webserver": "0.2.*",
         "techdivision/servlet": "0.5.*",
         "techdivision/servletengine": "0.5.*",
         "techdivision/storage": "0.5.*",
         "techdivision/websocketserver": "0.1.*"
+    },
+    "suggest": {
+        "techdivision/appserver-documentation": "Complete documentation of the appserver.io project"
     },
     "autoload": {
         "psr-0": {
